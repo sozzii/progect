@@ -1,0 +1,200 @@
+@import url(./common.css);
+@import url(./sub_common.css);
+
+main{
+    width: 100%;
+}
+
+main .con1 .tit-sub p:nth-of-type(5){
+    color: #004796;
+    font-weight: bold;
+}
+
+.sec2{
+    width: 1400px;
+    margin: 100px auto;
+}
+
+.sec2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.sec2 ul li a{
+    padding: 20px;
+    font-size: 1.5rem;
+    color: #004796;
+    font-weight: bold;
+    display: block;
+}
+.sec2 ul li a.active::after{
+    content:'';
+    display:block;
+    border-bottom:2px solid #004796    
+
+}
+
+
+/*  */
+
+h3{color: #004796;}
+
+.sec3{
+    width: 1400px;
+    margin: 100px auto;
+}
+
+.sec4{
+    width: 1400px;
+    margin: 100px auto;
+}
+
+.sec4 ul{
+    padding: 50px;
+    background-color: rgba(244,180,28,0.1);    
+    border-radius: 10px;
+}
+
+.sec4 ul li{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.sec4 ul .tit{
+    color: #004796;
+    font-size: 20px;
+}
+
+.sec4 ul .tit > p{
+    width:45%; 
+    border-bottom: 2px solid #004796;
+    text-align: center;
+}
+
+.sec4 ul .txt > p{
+    flex-shrink: 0;
+}
+
+.sec4 ul .txt > p:nth-of-type(1){
+    width:3%; margin-bottom:auto;
+}
+
+.sec4 ul .txt > p:nth-of-type(2){
+    margin-right: auto;
+}
+
+.sec4 ul .txt > p:nth-of-type(2),
+.sec4 ul .txt > p:nth-of-type(3){
+    width:45%;
+    position: relative;
+}
+
+.sec4 ul .txt > p:nth-of-type(3)::before{
+    content: '→';    
+    color: #F4B41C;
+    align-items: center;
+    position:absolute;
+    left:0; top:0;
+    transform: translateX(-400%);
+}
+
+.sec4 ul li.tit p:nth-of-type(2){
+}
+
+.sec4 ul li.txt p:nth-of-type(2){
+}
+
+.sec4 ul li.txt p:nth-of-type(3){
+}
+
+/*  */
+
+.sec5{
+    width: 1400px;
+    margin: 100px auto;
+}
+
+.sec5 h3 span{
+    font-weight: normal;
+    font-size: 15px;
+    color: #666666;
+}
+
+.sec5 tr.tit{
+    text-align: center;
+    color: #004796;
+}
+
+.sec5 table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.sec5 table td{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.sec5 table .tit-sub{
+    color: #004796;
+    text-align: center;
+}
+
+.sec5 table tr .txt2{
+    text-align: center;
+}
+
+.sec5 table span{
+    color: #004796;
+}
+
+
+
+/*  */
+
+.sec6{
+    width:1400px;
+    margin: 100px auto;
+}
+
+.sec6 ul{
+    width: 700px;
+    padding: 50px;
+}
+
+.sec6 li{
+    align-items: center;
+    padding: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.sec6 > ul > li:nth-of-type(1),
+.sec6 > ul >li:nth-of-type(3){
+    background-color: rgba(159,206,232,0.1);
+    border-radius: 10px;
+}
+
+
+.sec6 li span{
+    line-height: 20px;
+    font-weight: bold;
+    color: #004796;
+}
+
+.sec6 ul .sec6-li3 p{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+.sec6 ul .sec6-li3 p:nth-of-type(1){
+    border: 2px solid #004796;
+    border-radius: 100%;
+    padding: 20px;
+    margin-left: 37%;
+}

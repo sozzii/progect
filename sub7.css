@@ -1,0 +1,43 @@
+@import url(./common.css);
+@import url(./sub_common.css);
+
+main{
+    width: 100%;
+}
+
+main .con1 .tit-sub p:nth-of-type(3){
+    color: #004796;
+    font-weight: bold;
+}
+
+/*  */
+
+.sec2{
+    width: 1400px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.sec2 thead tr{
+    border: 1px solid #404040;
+}
+
+.sec2 tr th{
+    padding: 20px;
+    color: #004796;
+}
+
+/*  */
+
+.sec2 tbody tr{
+    border-bottom: 1px solid #666666;
+    padding: 20px;
+}
+
+
+/*  */
+
+.sec2 tfoot td{
+    margin: 20px;
+}
+

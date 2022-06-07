@@ -1,0 +1,88 @@
+@import url(./common.css);
+@import url(./sub_common.css);
+
+main{
+    width: 100%;
+}
+
+main .con1 .tit-sub p:nth-of-type(3){
+    color: #004796;
+    font-weight: bold;
+}
+
+/*  */
+
+.sec2{
+    width: 1400px;
+    margin: 100px auto;
+    line-height: 30px;
+    position: relative;
+}
+
+.sec2 div{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+.sec2 div a{
+    display: block;
+    border: 1px solid #004796;
+    border-radius: 100%;
+    color: crimson;
+    padding: 30px 10px;
+    margin: 20px;
+}
+
+.sec2 ul{
+    margin-top: 100px;
+}
+
+.sec2 ul span{
+    color: #F4B41C;
+}
+
+.sec2 .who li{
+    list-style:disc;
+    margin-left: 20px;
+}
+
+.sec2 .who li:nth-of-type(4){
+    list-style: none;
+}
+
+.sec2 .how li{
+    list-style:disc;
+    margin-left: 20px;
+}
+
+.sec2 .else li{
+    list-style:disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.sec2 .else li p:nth-of-type(1){
+    font-weight: bold;
+}
+
+.sec2 .else li p:nth-of-type(2){
+    color: #666666;
+}
+
+.sec2 ul h3{
+    color: #004796;
+}
+
+.sec2 ul li{
+    color: #666666;
+}
+
+.sec2 p img{
+    position: absolute;
+    width: 30%;
+    height: 20%;
+    margin-top: 20px;
+    right: 0px;
+    bottom: 30%;
+}

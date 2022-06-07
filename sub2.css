@@ -1,0 +1,164 @@
+@import url(./common.css);
+@import url(./sub_common.css);
+
+main{
+    width: 100%;
+}
+
+main .con1 .tit-sub p:nth-of-type(5){
+    color: #004796;
+    font-weight: bold;
+}
+
+.sec2{
+    width: 1400px;
+    margin: 100px auto;
+}
+
+.sec2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.sec2 ul li{
+    padding: 20px;
+    font-size: 1.5rem;
+    color: #004796;
+    font-weight: bold;
+}
+
+.sec2 ul li:nth-of-type(2){
+    color: #004796;
+}
+
+/*  */
+
+main .sec3 p{
+    width: 1400px;
+    margin: 100px auto;
+    line-height: 30px;
+}
+
+/*  */
+
+main .sec4{
+    width: 700px; height:700px;
+    text-align: center;
+    margin: 100px auto;
+    transform-style: preserve-3d;
+    position: relative;
+}
+main .sec4 .ani-circle {
+    width: 40%;
+    border-radius: 100%;
+    /* animation: circle-move 10s infinite linear; */
+}
+
+@keyframes circle-move{
+    0%{transform: rotateZ(0deg);}
+    100%{transform: rotatez(360deg);}
+}
+
+main .sec4 .ani-circle h3{
+    position: absolute;
+    left:calc(50% - 100px); top:calc(50% - 100px);
+    background-color: #004796;
+    color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    margin:0;
+}
+
+main .sec4 .ani-circle p{
+    background-color: #D8F0FE;
+    color: #004796;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    padding: 40px;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    left:calc(50% - 75px); top:calc(50% - 75px);
+}
+
+main .sec4 .ani-circle p:nth-of-type(1){
+    top: 0%;
+}
+
+main .sec4 .ani-circle p:nth-of-type(2){
+    left: 0%;
+    top: calc(40% - 50px);
+    transform: rotateZ(-0deg);
+}
+
+main .sec4 .ani-circle p:nth-of-type(3){
+    left: calc(80% - 10px);
+    top: calc(40% - 50px);
+}
+
+main .sec4 .ani-circle p:nth-of-type(4){
+    transform: translate(-80%, 180%);
+    left: calc(80% - 10px);
+}
+
+main .sec4 .ani-circle p:nth-of-type(5){
+    right: calc(70% - 40px);
+    transform: translate(-110%, 180%);
+}
+
+
+
+/*  */
+
+main .sec5{
+    width: 1400px;
+    margin: 100px auto;
+}
+
+main .sec5 ul li{
+    display: flex;
+    align-items:stretch;
+    padding: 30px;
+}
+
+main .sec5 ul li p:nth-of-type(1){
+    padding-right: 100px;
+}
+
+main .sec5 ul li p:nth-of-type(2){
+    line-height: 30px;
+}
+
+main .sec5 ul li:nth-of-type(1) p:nth-of-type(1){
+    font-weight: bold;
+    padding-right: 65px;
+}
+
+main .sec5 ul li:nth-of-type(2) p:nth-of-type(1){
+    font-weight: bold;
+}
+
+main .sec5 ul li:nth-of-type(3) p:nth-of-type(1){
+    font-weight: bold;
+}
+
+main .sec5 ul li:nth-of-type(4) p:nth-of-type(1){
+    padding-right: 90px;
+    font-weight: bold;
+}
+
+main .sec5 ul li:nth-of-type(5) p:nth-of-type(2){
+    padding-left: 65px;
+}
+
+main .sec5 ul li p:nth-of-type(2) span{
+    color: #F4B41C;
+}
+
